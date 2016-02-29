@@ -1,27 +1,27 @@
 def division(num1, num2)
- 
+    num1 / num2
 end
 
-def assign_variable(value)
-  
+def assign_variable(name)
+    name
 end
 
-def argue
-  
+def argue(argument)
+    argument
 end
 
-def greeting
-
-end
-
-def return_a_value
+def greeting(firstname, lastname)
 
 end
 
-def last_evaluated_value
-
+def return_a_value(value = "Nice")
+    value
 end
 
-def pizza_party
+def last_evaluated_value(eval_value = "expert")
+    eval_value
+end
 
+def pizza_party(flavour = "cheese")
+    flavour
 end
